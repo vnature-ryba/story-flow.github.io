@@ -1,0 +1,37 @@
+textarea, input[type=text] {
+    width: 100%;
+    font-size: 15px;
+    resize: vertical;
+    color: var(--ink);
+    padding: 12px 14px;
+    border-radius: 2px;
+    font-family: var(--font-body);
+    border: 1px solid var(--border);
+    background-color: var(--bg-elevated);
+    transition: color .2s, border-color .2s;
+
+    &::placeholder {
+        opacity: .3;
+        transition: opacity .2s;
+    }
+}
+
+input[type=text] {
+    min-height: 40px;
+}
+
+textarea {
+    min-height: 160px;
+    line-height: 1.6;
+}
+
+textarea, input {
+    &:focus, &:focus-visible {
+        outline: none;
+        border-color: var(--amber);
+
+        &::placeholder {
+            opacity: 0;
+        }
+    }
+}

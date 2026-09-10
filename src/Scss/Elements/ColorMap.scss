@@ -1,0 +1,34 @@
+:root {
+    --bg: #15130f;
+    --bg-elevated: #1e1c17;
+    --bg-card: #211f19;
+    --paper: #eee7d8;
+    --ink: #d8d1c1;
+    --ink-dim: #9a9384;
+    --muted: #6f6a5e;
+    --border: #3a362c;
+    --border-soft: #2a271f;
+
+    --amber: #e2a33e;
+    --amber-dim: #6b5127;
+    --teal: #4f8481;
+    --teal-dim: #29403e;
+    --red: #c9432b;
+    --red-dim: #4d211a;
+    --green: #7c9a5c;
+    --green-dim: #33401f;
+
+    --status-todo: var(--muted);
+    --status-prep: var(--teal);
+    --status-shoot: var(--red);
+    --status-post: var(--amber);
+    --status-done: var(--green);
+
+    --font-display: 'Oswald', sans-serif;
+    --font-body: 'Source Serif 4', 'PT Serif', serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    --radius: 3px;
+    --shadow-lift: 0 12px 30px -12px rgba(0, 0, 0, .6);
+    --transparent: rgba(0, 0, 0, 0);
+}

@@ -1,0 +1,43 @@
+.status-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    padding: 5px 10px 5px 8px;
+    border-radius: 20px;
+    border: 1px solid var(--c, var(--muted));
+    color: var(--c, var(--muted));
+    white-space: nowrap;
+
+    &::before {
+        content: '';
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: var(--c, var(--muted));
+        flex: none;
+    }
+
+    &.status-todo {
+        --c: var(--status-todo);
+    }
+
+    &.status-prep {
+        --c: var(--status-prep);
+    }
+
+    &.status-shoot {
+        --c: var(--status-shoot);
+    }
+
+    &.status-post {
+        --c: var(--status-post);
+    }
+
+    &.status-done {
+        --c: var(--status-done);
+    }
+}

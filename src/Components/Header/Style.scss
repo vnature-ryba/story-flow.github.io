@@ -1,0 +1,73 @@
+.app-header {
+    top: 0;
+    gap: 24px;
+    z-index: 3;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    padding: 12px 15px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #2a271f;
+    transition: padding .2s, box-shadow .2s;
+    background: linear-gradient(#1e1c17, #1e1c17);
+
+    a {
+        color: var(--paper);
+    }
+
+    .header-actions {
+        gap: 10px;
+        display: flex;
+        align-items: center;
+
+        button {
+            span {
+                @media screen and (max-width: 767.9px) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .logo {
+        gap: 12px;
+        display: flex;
+        align-items: center;
+
+        svg {
+            @media screen and (max-width: 355.9px) {
+                width: 40px;
+                height: 40px;
+            }
+        }
+
+        h3 {
+            @media screen and (max-width: 355.9px) {
+                font-size: 15px;
+            }
+        }
+
+        p {
+            margin: 0;
+            font-size: 10px;
+            color: var(--ink-dim);
+            @media screen and (min-width: 356px) {
+                font-size: 13px;
+            }
+        }
+    }
+
+    &.sticky {
+        padding: 5px 15px;
+        box-shadow: 0 0 15px 0 rgba(0, 0, 0, .6);
+    }
+
+    @media screen and (min-width: 992px) {
+        padding: 12px 40px;
+
+        &.sticky {
+            padding: 5px 40px;
+        }
+    }
+}

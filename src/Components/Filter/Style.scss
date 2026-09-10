@@ -1,0 +1,30 @@
+.filter-row {
+    gap: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 26px;
+}
+
+.filter-chip {
+    padding: 7px 13px;
+    font-size: 11.5px;
+    border-radius: 20px;
+    color: var(--ink-dim);
+    letter-spacing: .05em;
+    background: transparent;
+    text-transform: uppercase;
+    font-family: var(--font-mono);
+    border: 1px solid var(--border);
+    transition: color .2s, border-color .2s, background-color .2s;
+
+    &.active {
+        color: var(--amber);
+        border-color: var(--amber);
+        background: rgba(226, 163, 62, .08);
+    }
+
+    &:hover {
+        color: var(--ink);
+        border-color: var(--ink-dim);
+    }
+}
