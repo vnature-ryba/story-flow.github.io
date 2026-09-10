@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/story-flow.github.io/static/css/main.9d841deb.css",
+    "main.js": "/story-flow.github.io/static/js/main.920a30b2.js",
+    "static/js/453.1e907edc.chunk.js": "/story-flow.github.io/static/js/453.1e907edc.chunk.js",
+    "static/media/SpriteMain.svg": "/story-flow.github.io/static/media/SpriteMain.8e148705042f833652893dc575145259.svg",
+    "index.html": "/story-flow.github.io/index.html",
+    "main.9d841deb.css.map": "/story-flow.github.io/static/css/main.9d841deb.css.map",
+    "main.920a30b2.js.map": "/story-flow.github.io/static/js/main.920a30b2.js.map",
+    "453.1e907edc.chunk.js.map": "/story-flow.github.io/static/js/453.1e907edc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d841deb.css",
+    "static/js/main.920a30b2.js"
+  ]
+}
